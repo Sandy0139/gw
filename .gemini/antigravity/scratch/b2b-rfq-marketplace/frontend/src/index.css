@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Custom Quotio B2B Brand Palette */
+.bg-quotio-header {
+  background-color: #0f172a;
+}
+
+.bg-quotio-subnav {
+  background-color: #1e293b;
+}
+
+.bg-quotio-blue {
+  background-color: #2563eb;
+}
+
+.bg-quotio-blue:hover {
+  background-color: #1d4ed8;
+}
+
+.text-quotio-blue {
+  color: #2563eb;
+}
+
+.bg-quotio-amber {
+  background-color: #f59e0b;
+}
+
+.text-quotio-amber {
+  color: #d97706;
+}
+
+.bg-quotio-green {
+  background-color: #059669;
+}
+
+.text-quotio-green {
+  color: #059669;
+}
