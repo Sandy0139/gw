@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: quotio-b2b-backend
+    env: node
+    buildCommand: npm install && npx prisma db push && npx ts-node src/seed.ts && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        value: quotio-b2b-production-jwt-secret-key-2026
